@@ -23,6 +23,15 @@ public class App {
   
           // Tulostetaan konsoliin 5*2=10 jos luku1 on 5 ja luku2 on 2.
          System.out.println(luku1 + "*" + luku2 + "=" + tulo);
+
+        //Määritetään summa, jako ja erotus muuttujat. Määritin muuttujat double-tyyppisiksi, koska tuloksessa voi olla desimaaleja.
+         double summa;
+         double jako;
+         double erotus;
+  
+         summa = luku1 + luku2;
+         jako = luku1/luku2;
+         erotus = luku1-luku2; 
  
     }
 }
